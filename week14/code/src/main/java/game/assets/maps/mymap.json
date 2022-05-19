@@ -1,0 +1,59 @@
+{
+  "RemainingTime": 60,
+  "InitialGold": 800,
+  "GoldThresholdObjective": 1000,
+  "MerchantStore": [
+    {
+      "which": "CK",
+      "value": 1,
+      "price": 100
+    }
+  ],
+  "Rooms": [
+    {
+      "isDark": false,
+      "east": {
+        "type": "Merch"
+      },
+      "north": {
+        "type": "Door",
+        "to": 2,
+        "isLocked": true
+      },
+      "west": {
+        "type": "Chest",
+        "which": "G",
+        "value": 50
+      },
+      "south": {
+        "type": "Mirror",
+        "which": "DK",
+        "value": 1
+      }
+    },
+    {
+      "isDark": false,
+      "east": {
+        "type": "Painting",
+        "which": "CK",
+        "value": -5
+      },
+      "north": {
+        "type": "Painting",
+        "which": "G",
+        "value": 250
+      },
+      "west": {
+        "type": "Wall"
+      },
+      "south": {
+        "type": "Door",
+        "to": 1,
+        "isLocked": false
+      }
+    }
+  ]
+}
+
+
+

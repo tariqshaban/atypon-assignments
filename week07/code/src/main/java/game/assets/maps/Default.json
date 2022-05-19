@@ -1,0 +1,241 @@
+{
+  "RemainingTime": 250,
+  "InitialGold": 300,
+  "GoldThresholdObjective": 600,
+  "MerchantStore": [
+    {
+      "which": "DK",
+      "value": 5,
+      "price": 100
+    },
+    {
+      "which": "CK",
+      "value": 3,
+      "price": 150
+    },
+    {
+      "which": "F",
+      "value": 85,
+      "price": 75
+    },
+    {
+      "which": "F",
+      "value": 40,
+      "price": 50
+    }
+  ],
+  "Rooms": [
+    {
+      "isDark": false,
+      "east": {
+        "type": "Wall"
+      },
+      "north": {
+        "type": "Door",
+        "to": 2,
+        "isLocked": false
+      },
+      "west": {
+        "type": "Wall"
+      },
+      "south": {
+        "type": "Merch"
+      }
+    },
+    {
+      "isDark": false,
+      "east": {
+        "type": "Door",
+        "to": 3,
+        "isLocked": false
+      },
+      "north": {
+        "type": "Painting",
+        "which": "G",
+        "value": 50
+      },
+      "west": {
+        "type": "Door",
+        "to": 8,
+        "isLocked": false
+      },
+      "south": {
+        "type": "Door",
+        "to": 1,
+        "isLocked": false
+      }
+    },
+    {
+      "isDark": false,
+      "east": {
+        "type": "Door",
+        "to": 5,
+        "isLocked": true
+      },
+      "north": {
+        "type": "Door",
+        "to": 7,
+        "isLocked": false
+      },
+      "west": {
+        "type": "Door",
+        "to": 2,
+        "isLocked": false
+      },
+      "south": {
+        "type": "Door",
+        "to": 4,
+        "isLocked": false
+      }
+    },
+    {
+      "isDark": false,
+      "east": {
+        "type": "Chest",
+        "which": "G",
+        "value": 100
+      },
+      "north": {
+        "type": "Door",
+        "to": 3,
+        "isLocked": false
+      },
+      "west": {
+        "type": "Wall"
+      },
+      "south": {
+        "type": "Painting",
+        "which": "DK",
+        "value": 10
+      }
+    },
+    {
+      "isDark": false,
+      "east": {
+        "type": "Painting",
+        "which": "CK",
+        "value": 1
+      },
+      "north": {
+        "type": "Door",
+        "to": 6,
+        "isLocked": true
+      },
+      "west": {
+        "type": "Door",
+        "to": 3,
+        "isLocked": false
+      },
+      "south": {
+        "type": "Merch"
+      }
+    },
+    {
+      "isDark": true,
+      "east": {
+        "type": "Chest",
+        "which": "DK",
+        "value": 18
+      },
+      "north": {
+        "type": "Chest",
+        "which": "G",
+        "value": 300
+      },
+      "west": {
+        "type": "Door",
+        "to": 7,
+        "isLocked": false
+      },
+      "south": {
+        "type": "Door",
+        "to": 5,
+        "isLocked": false
+      }
+    },
+    {
+      "isDark": false,
+      "east": {
+        "type": "Door",
+        "to": 6,
+        "isLocked": false
+      },
+      "north": {
+        "type": "Painting",
+        "which": "-1",
+        "value": -1
+      },
+      "west": {
+        "type": "Wall"
+      },
+      "south": {
+        "type": "Door",
+        "to": 3,
+        "isLocked": false
+      }
+    },
+    {
+      "isDark": false,
+      "east": {
+        "type": "Door",
+        "to": 2,
+        "isLocked": false
+      },
+      "north": {
+        "type": "Door",
+        "to": 9,
+        "isLocked": false
+      },
+      "west": {
+        "type": "Door",
+        "to": 10,
+        "isLocked": true
+      },
+      "south": {
+        "type": "Mirror",
+        "which": "CK",
+        "value": 4
+      }
+    },
+    {
+      "isDark": true,
+      "east": {
+        "type": "Painting",
+        "which": "CK",
+        "value": 2
+      },
+      "north": {
+        "type": "Mirror",
+        "which": "-1",
+        "value": -1
+      },
+      "west": {
+        "type": "Wall"
+      },
+      "south": {
+        "type": "Door",
+        "to": 8,
+        "isLocked": false
+      }
+    },
+    {
+      "isDark": false,
+      "east": {
+        "type": "Door",
+        "to": 8,
+        "isLocked": false
+      },
+      "north": {
+        "type": "Chest",
+        "which": "G",
+        "value": 350
+      },
+      "west": {
+        "type": "Wall"
+      },
+      "south": {
+        "type": "Wall"
+      }
+    }
+  ]
+}

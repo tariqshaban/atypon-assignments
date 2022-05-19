@@ -1,0 +1,17 @@
+<!-- webapp/WEB-INF/web.xml -->
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+    version="3.0">
+
+    <display-name>Game</display-name>
+
+    <welcome-file-list>
+        <welcome-file>MainMenu</welcome-file>
+    </welcome-file-list>
+
+    <listener>
+        <listener-class>
+            webapp.InitializedListener
+        </listener-class>
+    </listener>
+</web-app>

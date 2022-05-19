@@ -1,0 +1,207 @@
+{
+
+  "ESTABLISHED":"Establishing Server...",
+
+  "DON'T_LEAVE_ENGAGEMENT":"Not quiting till somebody goes down",
+  "KILLED":" is no more.",
+  "TIE":"Tie!",
+
+  "FORMAT_SPACE": " ",
+  "FORMAT_LINE": "\n",
+  "FORMAT_TAB": "\t",
+  "FORMAT_SEPARATOR": "-----------------------------------------",
+  "FORMAT_COLON": ": ",
+  "FORMAT_PERCENT": "%",
+  "FORMAT_STAR": "*",
+  "FORMAT_VERTICAL_BAR": "|",
+  "FORMAT_DIVISION": "/",
+  "FORMAT_DOT": ".",
+  "FORMAT_NULL": "Null",
+  "JSON_DIR": "src/main/java/game/assets/maps/",
+  "JSON_ROOMS": "Rooms",
+  "JSON_MERCHANT_STORE": "MerchantStore",
+  "JSON_REMAINING_TIME": "RemainingTime",
+  "JSON_INITIAL_GOLD": "InitialGold",
+  "JSON_GOLD_THRESHOLD": "GoldThresholdObjective",
+  "JSON_TYPE": "type",
+  "JSON_WHICH": "which",
+  "JSON_VALUE": "value",
+  "JSON_PRICE": "price",
+  "JSON_WHICH_GOLD": "G",
+  "JSON_WHICH_DOOR_KEY": "DK",
+  "JSON_WHICH_CHEST_KEY": "CK",
+  "JSON_WHICH_FLASHLIGHT": "F",
+  "JSON_WHICH_TO": "to",
+  "JSON_WHICH_IS_LOCKED": "isLocked",
+  "JSON_IS_DARK": "isDark",
+  "JSON_EAST": "east",
+  "JSON_NORTH": "north",
+  "JSON_WEST": "west",
+  "JSON_SOUTH": "south",
+  "CONTAINER_MERCH": "Merch",
+  "CONTAINER_DOOR": "Door",
+  "CONTAINER_PAINTING": "Painting",
+  "CONTAINER_MIRROR": "Mirror",
+  "CONTAINER_CHEST": "Chest",
+  "CONTAINER_WALL": "Wall",
+  "UI_AWAITING_COMMAND": "Awaiting command...",
+  "UI_INVALID_COMMAND": "Invalid command",
+  "UI_INVALID_SELECTION": "Invalid selection",
+  "UI_FLASHLIGHT_CHARGE_IS": "Current flashlight charge is: ",
+  "UI_OBJECTIVE_COMPLETE": "tI think I have more than enough for today",
+  "UI_BLIND": "I cant see, I'll need a flashlight to enter that room",
+  "UI_DOOR_UNLOCKED": "I've unlocked the door using key number ",
+  "UI_DOOR_LOCKED": "It's locked, I'll need door key number ",
+  "UI_OPPOSITE_DOOR_UNLOCKED": "I've unlocked the opposite door using key number ",
+  "UI_FIGHT_HAPPENING": "There is currently a fight happening",
+  "UI_OPPOSITE_DOOR_LOCKED": "It's locked from the opposite room, I'll need door key number ",
+  "UI_CHEST_LOCKED": "It's locked, I'll need chest key number ",
+  "UI_NO_LOOT": "Got nothing here",
+  "UI_GOLD_FOUND": [
+    "Found ",
+    " gold, now I've got ",
+    " gold"
+  ],
+  "UI_DOOR_KEYS_FOUND": "Found key for door/s number ",
+  "UI_CHEST_KEYS_FOUND": "Found key for chest/s number ",
+  "UI_FLASHLIGHT_FOUND": [
+    "Found flashlight batteries with charge of ",
+    ", totaling "
+  ],
+  "UI_WALL": "Just a wall here :/",
+  "UI_RESET": "Resetting...",
+  "SHOP_TITLE": "Shop",
+  "SHOP_DOOR_KEYS": "Door keys numbers: ",
+  "SHOP_CHEST_KEYS": "Chest keys numbers: ",
+  "SHOP_FLASHLIGHT": [
+    "Flashlight with ",
+    "% charge\t"
+  ],
+  "SHOP_GOLD": "\t gold",
+  "SHOP_EMPTY": "They don't currently have any items",
+  "SHOP_EXIT": "0: Exit",
+  "SHOP_YOU_BOUGHT": "You bought ",
+  "SHOP_YOU_BOUGHT_FOR": [
+    "For ",
+    " gold"
+  ],
+  "SHOP_INSUFFICIENT": "Insufficient gold",
+  "SHOP_ITEM_GONE": "Someone took this item before me",
+  "STATUS_TITLE": "Status",
+  "STATUS_GOLD": "Gold: ",
+  "STATUS_KEYS": "Keys: ",
+  "STATUS_DOOR_KEYS": "\tDoor Keys:",
+  "STATUS_CHEST_KEYS": "\t\tChest Keys:",
+  "STATUS_FLASHLIGHT": "Flashlight charge:\t",
+  "STATUS_REMAINING_TIME": [
+    "Remaining time: ",
+    " seconds"
+  ],
+  "TIMER_ALREADY_SET": "Countdown timer has already been set.",
+  "TIMER_START_DIALOG": [
+    "I have ",
+    " seconds to collect ",
+    " gold, better get to it."
+  ],
+  "TIMER_60_SECS": [
+    "Only one minute left, I still need ",
+    " gold."
+  ],
+  "TIMER_5_SECS": "I had my chance...",
+  "TIMER_DONE": "It's over.",
+  "CONTROLS_DUPLICATE": "One of the controls is duplicate, could not set such control",
+  "CONTROLS_DNE": "Invalid batch control command",
+  "SERIALIZE_FILE_NAME": [
+    "checkpoint",
+    ".ser"
+  ],
+  "SERIALIZE_DIRECTORY": "src/main/java/game/assets/checkpoints/",
+  "SERIALIZE_CHECKPOINT_MADE": "A checkpoint has been made",
+  "SERIALIZE_CHECKPOINT_FAILED": "Could not find such directory, either the directory does not exist or there is a write permission (access control) issue.",
+  "SERIALIZE_NO_CHECKPOINTS_FOUND": "No saved checkpoints found",
+  "SERIALIZE_EXIT": "0. Exit",
+  "SERIALIZE_CHECKPOINT_LOADED": "Loaded checkpoint",
+  "EXCEPTION_EXPECTED": "1::",
+  "EXCEPTION_NO_KEYS": "No keys",
+  "EXCEPTION_LINE": "Line number: ",
+  "EXCEPTION_JSON_ERR_FILE_NOT_FOUND": "Error, settings file was not found, make sure that you specified the directory and name correctly (error code 3000)",
+  "EXCEPTION_JSON_ERR": "Error decoding the JSON file, ensure that the structure is compliant (error code 3001)",
+  "EXCEPTION_ILLOGICAL_MANDATE_VALIDATION": "Validate the logic of the JSON file map, ",
+  "EXCEPTION_ILLOGICAL_REMAINING_TIME": "Validate the logic of the JSON file map, remaining time cannot be less than a minute",
+  "EXCEPTION_ILLOGICAL_STARTING_GOLD": "Validate the logic of the JSON file map, initial gold must be less than the objective",
+  "EXCEPTION_ILLOGICAL_STARTING_GOLD_NEGATIVE": "Validate the logic of the JSON file map, initial gold cannot be negative",
+  "EXCEPTION_ILLOGICAL_GOLD_SUM": "Validate the logic of the JSON file map, the total gold in the map may not be sufficient to ensure wining conditions\n Make sure to include the scenario where the user buys all of the store items\n The following equation must be followed: startingGold + allContainerGold - StoreItems >: GoldThreshold",
+  "EXCEPTION_ILLOGICAL_SPAWN_ROOM_LIGHTNING": "Validate the logic of the JSON file map, The spawn room cannot be dark",
+  "EXCEPTION_ILLOGICAL_CONTAINER_DOOR": [
+    "Validate the logic of the JSON file map, A container class raised an exception due to inconsistent mapping\nContainer Type: ",
+    "\nReason: A door leads to a non existing room",
+    "\nReason: A door cannot lead to the same room",
+    "\nReason: A door does not lead to another door",
+    "\nReason: A room does not have any doors (orphan)",
+    "\nReason: A Key does not correspond to any door",
+    "\nReason: A locked door does not have a key",
+    "\nExpected: ",
+    "\nFound: "
+  ],
+  "EXCEPTION_ILLOGICAL_CONTAINER_CHEST": [
+    "Validate the logic of the JSON file map, A container class raised an exception due to inconsistent mapping\nContainer Type: ",
+    "\nReason: A Key does not correspond to any chest",
+    "\nReason: A chest does not have a key",
+    "\nExpected: ",
+    "\nFound: "
+  ],
+  "EXCEPTION_SERIALIZE_ASSIGNING_FAILED": "Internal error detected",
+  "EXCEPTION_FILE_NOT_FOUND": "Could not find such file, either the file does not exist or there is a read permission (access control) issue.",
+  "EXCEPTION_SERIALIZE_FILE_ALTERED": "File inconsistency detected, do not manually modify the checkpoint file",
+  "EXCEPTION_CLASS_MODIFIED": "This checkpoint was saved in a different version of the game",
+  "EXCEPTION_OTHERWISE": "Otherwise",
+  "TO_STRING_CHEST": [
+    "\tID: ",
+    "/",
+    "\t"
+  ],
+  "TO_STRING_DOOR": [
+    "\tID: ",
+    "/",
+    "\tto: ",
+    "\tis locked: "
+  ],
+  "TO_STRING_STORE": [
+    "\tprice: ",
+    "\t",
+    "\tITEMS: "
+  ],
+  "TO_STRING_ROOM": [
+    "\tis dark: ",
+    "\teast: ",
+    "\tnorth: ",
+    "\twest: ",
+    "\tsouth: "
+  ],
+  "TO_STRING_EXCEPTION_INFO_HOLDER": [
+    "\tis success: ",
+    "\treason: "
+  ],
+  "TO_STRING_ILLOGICAL_MAPPING": "\tIndicates that the file reading is a success, however, the game logic is vague, in other words, the game could be never winnable or the wining conditions are met at the very beginning, can also be caused when the map's keys are more/less than the container keys\ttype: deserialization exception\tfatal: true",
+  "TO_STRING_TIME_UP": "\tIndicates that the timer reached 0 before the user has completed his mandated tasks\ttype: game-ending exception\tfatal: false",
+  "TO_STRING_CHEST_KEY": "\twhich: ",
+  "TO_STRING_DOOR_KEY": "\twhich: ",
+  "TO_STRING_FLASHLIGHT": "\tcharge: ",
+  "TO_STRING_GOLD": "\tamount: ",
+  "TO_STRING_CONTENTS": [
+    "\t|",
+    "|\t|",
+    "|"
+  ],
+  "TO_STRING_COUNTDOWN": [
+    "\ttime left: ",
+    "/"
+  ],
+  "STRING_GAME_SETTINGS": [
+    "\tgold objective: ",
+    "\tinventory: "
+  ],
+  "MAP_DIRECTORY": "src/main/java/game/assets/maps/",
+  "MAP_SELECT": "Select Map",
+  "SERIALIZE_NO_MAPS_FOUND": "No saved maps found"
+}
